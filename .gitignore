@@ -1,0 +1,20 @@
+# Environnement
+.env
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# DLT
+*.duckdb
+*.duckdb.wal
+.dlt/
+
+# dbt
+ecommerce_transform/target/
+ecommerce_transform/logs/
+ecommerce_transform/dbt_packages/
+
+# OS
+.DS_Store
+.DS_Store?
